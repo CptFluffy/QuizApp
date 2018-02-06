@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000000">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/result"
+            android:text="Your score is:"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_marginTop="72dp"
+            android:textSize="32sp"/>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result"
+            android:layout_marginTop="16dp"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
